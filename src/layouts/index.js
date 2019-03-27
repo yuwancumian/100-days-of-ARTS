@@ -11,7 +11,7 @@ function BasicLayout(props) {
                     123
                 </span>
             </div>
-            <h1 className={styles.title}>Yay! Welcome to umi!</h1>
+            <h1 className={styles.title}>Yay! Welcome</h1>
             { props.children }
             {
                 menuDisplay&&<Menu />

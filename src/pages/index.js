@@ -25,7 +25,7 @@ class Index extends React.Component{
                 <ul className={styles.list}>
                     {
                         list.map((item)=>(
-                            <div key={item.node_id}>{item.title}</div>
+                            <li key={item.node_id}>{item.title}</li>
                         ))
                     }
                 </ul>
