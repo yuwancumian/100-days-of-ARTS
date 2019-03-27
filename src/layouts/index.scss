@@ -1,0 +1,29 @@
+body {
+    background: #ccc;
+}
+.head{
+    background: #333;
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 6px;
+}
+.icon{
+    float: right;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    background: #fff;
+    ul {
+        list-style: none;
+    }
+    li{
+        line-height: 60px;
+        border-bottom: 1px solid #ccc;
+    }
+}
