@@ -1,8 +1,8 @@
 
 // ref: https://umijs.org/config/
 export default {
-    base: '/test-gh-pages/',
-    publicPath: '/test-gh-pages/',
+    base: '/100-days-of-ARTS/',
+    publicPath: '/100-days-of-ARTS/',
     treeShaking: true,
     plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
